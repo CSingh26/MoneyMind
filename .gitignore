@@ -1,0 +1,95 @@
+# =========================================
+# Global
+# =========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.lock
+.env
+.env.*
+node_modules/
+
+# =========================================
+# Flutter / Dart
+# =========================================
+# Build
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.dart_tool/
+
+# Generated
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.packages
+*.iml
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/app/*.keystore
+android/app/google-services.json
+android/local.properties
+android/key.properties
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# =========================================
+# Backend (Node.js / Express)
+# =========================================
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.nyc_output
+
+# =========================================
+# IDEs & Editors
+# =========================================
+.vscode/
+.idea/
+*.iml
+
+# =========================================
+# Others
+# =========================================
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+coverage/
+reports/
+*.seed
+*.pid
+*.pid.lock
+*.orig
+*.rej
